@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Card, Button } from "@heroui/react";
-import { ShieldCross, ArrowLeft, House, PersonWorker } from "@gravity-ui/icons";
+import { ShieldKeyhole, ArrowLeft, House, PersonWorker } from "@gravity-ui/icons";
 import Link from "next/link";
 
 export default function ForbiddenPage() {
@@ -18,7 +18,7 @@ export default function ForbiddenPage() {
           
           {/* 🚨 Animated Security Shield Cross Badge */}
           <div className="w-16 h-16 rounded-full bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-500 mb-6 relative">
-            <ShieldCross size={30} />
+            <ShieldKeyhole size={30} />
             <span className="absolute inset-0 rounded-full border border-amber-500/30 animate-ping opacity-20 scale-105" />
           </div>
 
